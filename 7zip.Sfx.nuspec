@@ -12,11 +12,11 @@
     <tags>7zip 7za sfx 7zcon 7zsd</tags>
   </metadata>
   <files>
-    <file src=".\7za.exe" target="." />
-    <file src=".\7zCon.sfx" target="." />
-    <file src=".\7-zip.chm" target="." />
-    <file src=".\7zsd.sfx" target="." />
-    <file src=".\readme.txt" target="." />
-    <file src=".\license.txt" target="." />
+    <file src="package-contents\7za.exe" target="tools" />
+    <file src="package-contents\7zCon.sfx" target="tools" />
+    <file src="package-contents\7-zip.chm" target="tools" />
+    <file src="package-contents\7zsd.sfx" target="tools" />
+    <file src="package-contents\readme.txt" target="tools" />
+    <file src="package-contents\license.txt" target="tools" />
   </files>
 </package>
