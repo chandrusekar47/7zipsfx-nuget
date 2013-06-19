@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>7Zip.Sfx</id>
+    <version>1.0.0</version>
+    <authors>cs</authors>
+    <owners>cs</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains 7za.exe and the sfx modules 7zSD and 7zCon</description>
+    <releaseNotes>--</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>7zip 7za sfx 7zcon 7zsd</tags>
+  </metadata>
+  <files>
+    <file src=".\7za.exe" target="." />
+    <file src=".\7zCon.sfx" target="." />
+    <file src=".\7-zip.chm" target="." />
+    <file src=".\7zsd.sfx" target="." />
+    <file src=".\readme.txt" target="." />
+    <file src=".\license.txt" target="." />
+  </files>
+</package>
